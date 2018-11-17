@@ -13,7 +13,7 @@ $(document).ready(function(){
     console.log("call-api button was pressed");
 
     // call the API
-    var url = ""; // add your API's URL here!
+    var url = "https://api1.chicagopolice.org/clearpath/api/1.0/crimes/major"; // add your API's URL here!
     $.get(url, function(data, status){
         console.log("Data: " + data + "\nStatus: " + status);
         console.log(data);
